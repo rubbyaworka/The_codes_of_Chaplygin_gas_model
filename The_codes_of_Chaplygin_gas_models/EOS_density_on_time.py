@@ -12,8 +12,11 @@ rh_lam = 1
 
 
 ######### the density in terms of the scale factor
-den1 =rh_dark*((((3.*rh_dark)/4)**(-3/4))*t**(-2))
-den2 = rh_radia*((((4.*rh_dark)/3)**(-2))*t**(-2))
+d1 = ((3/4.)*(rh_dark)**(4))**(-2/3)
+den1 =(d1)*t**(-2)
+
+d2 = 3/4
+den2 = d2*(t**(-2))
 den3 = rh_lam*(t**0.)
 
 plt.plot(t,den1, label=r'$\rho(t)_{m}$')

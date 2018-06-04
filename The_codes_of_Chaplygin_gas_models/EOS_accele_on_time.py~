@@ -10,10 +10,10 @@ rh_lam = 1
 t = np.linspace(0,5,100)
 
 ##### the acceleration in terms of time
-a1= ( -rh_dark/6.)*(((3/4.)*rh_dark)**(-1.))
+a1= (-1/6)*((3./4)**(-1/3))*(rh_dark**(-7/3))
 accele1 = a1*(t**(-4/3.))
 
-a2 = (-rh_radia/3.)*(((rh_radia*4)/3.)**(-3/2))
+a2 = (-1/3)*((4./3)**(-3/4))*((rh_radia)**(1/4.))
 accele2 = a2*(t**(-3/2.))
 
 accele3 = rh_lam/3.*(np.exp(np.sqrt(rh_lam/3.)*t))

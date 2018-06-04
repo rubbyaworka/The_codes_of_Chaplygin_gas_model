@@ -11,12 +11,12 @@ t = np.linspace(0,10,100)
 
 
 ###### scale factor of dark matter
-s1 = np.sqrt(3/4.*rh_dark)
+s1 = ((3/4.)*rh_dark)**(1./3)
 scalefac1 = s1*(t**(2/3.))
 
 
 ####### scale factor of radiation
-s2 = np.sqrt(4/3.*rh_radia)
+s2 = ((4/3.)*rh_radia)**(1./4)
 scalefac2 = s2*(t**(1/2.))
 
 ######### scale factor of cosmological constant

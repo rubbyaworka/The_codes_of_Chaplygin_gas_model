@@ -12,7 +12,7 @@ rh_lam = 1
 
 
 ######### the density in terms of the scale factor
-d1 = ((3/4.)*(rh_dark)**(4))**(-2/3)
+d1 = ((3/4.)*(rh_dark**(4)))**(-2/3)
 den1 =(d1)*t**(-2)
 
 d2 = 3/4
